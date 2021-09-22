@@ -208,3 +208,52 @@ body {
   justify-content: flex-end;
   margin: 30px 130px 0 0;
 }
+@media (max-width: 700px){
+    .menu_logo{
+        display: none;
+    }
+    html{
+        overflow-x: hidden;
+    }
+    .menu_c a{
+        font-size: 20px;
+        margin: 0 10px;
+    }
+    .text_m1 h1{
+        font-size: 60px;
+    }
+    .text_m1 p{
+        font-size: 30px;
+        display: flex;
+        width: 85%;
+        font-weight: 600;
+    }
+    .text2{
+        margin: 0;
+    }
+    .pos{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        margin: 10px;
+
+        
+    }
+    .pos_k{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        padding: 5px;
+        padding-bottom: 30px;
+        
+    }
+    .pos_c{
+        justify-content: flex-end;
+        margin: 10px;
+    }
+    .acc p{
+        font-size: 25px;
+    }
+
+}
