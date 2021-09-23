@@ -1,0 +1,29 @@
+.pos_k{
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+    padding: 15px;
+}
+.pos{
+    width: 100%;
+}
+.pos_c{
+    width: 60%;
+}
+.pos1{
+    padding: 200px;
+}
+.pos1{
+    flex-direction: column;
+}
+.pep{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.pep p{
+    color: #03669a;
+    font-size: 22px;
+    font-weight: 800;
+}
+@media()
